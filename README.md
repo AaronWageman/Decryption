@@ -1,16 +1,16 @@
 # Decryption
 
-# Group Members
+## Group Members
  - Aaron Wageman
  - Justin Hirner
  - Precious Shittu
 
-# Subtopics
+## Subtopics
  - Spotting weak passwords 
  - 
 
 
-# Tools Used
+## Tools Used
  - John The Ripper
  - Tutorial guide for John The Ripper: https://www.varonis.com/blog/john-the-ripper/
  - John The Ripper command docs: https://www.openwall.com/john/doc/OPTIONS.shtml
@@ -19,7 +19,7 @@
 
 # Spotting Weak Passwords (Aaron Wageman)
 
-### Sources Used
+## Sources Used
  - John The Ripper
  - Tutorial guide for John The Ripper: https://www.varonis.com/blog/john-the-ripper/
  - John The Ripper command docs: https://www.openwall.com/john/doc/OPTIONS.shtml
