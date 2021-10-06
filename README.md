@@ -48,9 +48,9 @@ Using the wordlist method:
 1. Download the mynewwordlist.txt and newpassworddoc.txt from our github
 2. Use git bash here in the "run" folder (See How to install above)
 3. Run the command: ./john newpassworddoc.txt -wordlist="mynewwordlist.txt" --format=Raw-SHA256
+4. Then run ./john --show --format=Raw-SHA256 newpassworddoc.txt
 
-
-5. Then run ./john --show --format=Raw-SHA256 newpassworddoc.txt
+![JTRsnip.PNG](JTRsnip.PNG)
 
 
 
