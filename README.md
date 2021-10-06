@@ -33,6 +33,9 @@
  - John The Ripper command docs: https://www.openwall.com/john/doc/OPTIONS.shtml
  - John The Ripper modes docs: https://www.openwall.com/john/doc/MODES.shtml
 
+## Prerequisites
+- Windows, Linux, or MacOS
+
 ## Overview
 John The Ripper can be used as a tool in IT. John The Ripper's password cracker allows for companies to see if their employees are following good password practices.
 John the ripper has 3 modes:
