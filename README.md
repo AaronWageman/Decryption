@@ -35,6 +35,7 @@
  - Tutorial guide for John The Ripper: https://www.varonis.com/blog/john-the-ripper/
  - John The Ripper command docs: https://www.openwall.com/john/doc/OPTIONS.shtml
  - John The Ripper modes docs: https://www.openwall.com/john/doc/MODES.shtml
+ - Top 100 worst passwords for the wordlist: https://www.forbes.com/sites/daveywinder/2019/12/14/ranked-the-worlds-100-worst-passwords/?sh=75aa22d069b4
 
 ## Prerequisites
 - Windows, Linux, or MacOS
