@@ -1,5 +1,8 @@
 # Decryption
 
+## Photos
+![KUpic.JPG](KUpic.jpg)
+
 ## Group Members
  - Aaron Wageman
  - Justin Hirner
