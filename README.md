@@ -33,6 +33,7 @@
  - John The Ripper command docs: https://www.openwall.com/john/doc/OPTIONS.shtml
  - John The Ripper modes docs: https://www.openwall.com/john/doc/MODES.shtml
 
+## Overview
 John The Ripper can be used as a tool in IT. John The Ripper's password cracker allows for companies to see if their employees are following good password practices.
 John the ripper has 3 modes:
   - single crack 
@@ -43,7 +44,18 @@ Single crack mode cracks password hashes by using login names, "GECOS", and the 
 
 ### Code and Processes
 
-Using the wordlist method
+Using the wordlist method:
+1. Download the mynewwordlist.txt and newpassworddoc.txt from our github
+2. Use git bash here in the "run" folder (See How to install above)
+3. Run the command: ./john newpassworddoc.txt -wordlist="mynewwordlist.txt" --format=Raw-SHA256
+
+
+5. Then run ./john --show --format=Raw-SHA256 newpassworddoc.txt
+
+
+
+
+
 
 
 
