@@ -59,6 +59,10 @@ Using the wordlist method:
 ![JTRsnip.PNG](JTRsnip.PNG)
 
 
+### Summary/Final Thoughts
+We just covered how to use the John The Rippers password cracker. Specifically, the wordlist mode. This can be used in a variety of settings such as, forensics or IT. Wordlist could be utilized to crack passwords during investigations or to test the strenghth of employee's passwords to prevent leaks.
+
+
 
 
 
