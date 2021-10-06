@@ -16,6 +16,14 @@
  - John The Ripper command docs: https://www.openwall.com/john/doc/OPTIONS.shtml
  - John The Ripper modes docs: https://www.openwall.com/john/doc/MODES.shtml
 
+# How to Install and run John the Ripper
+ - To start, go to the John the Ripper website. You can either Google "John the Ripper password cracker" or you can choose to follow this link: https://www.openwall.com/john/
+ - Once there, download the binary file for your bit OS. We chose the installation of the 64-bit version. 
+ - Once installed, find the zip file and extract it to a folder for which you want to keep it. 
+ - Now, open the folder that you extracted the contents to, and open the "run" folder. 
+ - Open your "Git Bash here" command, and run the command "./john"
+ - Now you should have full access to the program
+
 
 # Spotting Weak Passwords (Aaron Wageman)
 
