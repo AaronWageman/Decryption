@@ -1,7 +1,7 @@
 # Decryption
 
 ## Photos
-| ![KUpic.JPG](KUpic.jpg) | ![Me.jpeg](Me.jpeg) |
+| ![KUpic.JPG](KUpic.jpg) | ![Me-edit.jpeg](Me-edit.jpeg) |
 | ----------------------- | ------------------- |
 ## Group Members
  - Aaron Wageman
