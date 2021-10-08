@@ -59,6 +59,9 @@ Using the wordlist method:
 
 ![JTRsnip.PNG](JTRsnip.PNG)
 
+### Note from Justin
+When making your own passwords to crack, make sure that you do not create the files inside Git Bash, as for some weird reason, it will not crack the password. Even if the password is most definitely in the wordlist, it will not crack it. Simply, to get by this just create each of the files inside windows explorer, and only copy the hash value from Git Bash and then paste it into a text or log file. 
+
 
 ### Summary/Final Thoughts
 We just covered how to use the John The Ripper password cracker. Specifically, the wordlist mode. This can be used in a variety of settings such as, forensics or IT. Wordlist could be utilized to crack passwords during investigations or to test the strength of employee's passwords to prevent leaks.
