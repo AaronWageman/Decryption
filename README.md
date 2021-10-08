@@ -2,7 +2,7 @@
 
 ## Photos
 | ![KUpic.JPG](KUpic.jpg) | ![Me.jpeg](Me.jpeg) |
-
+| ----------------------- | ------------------- |
 ## Group Members
  - Aaron Wageman
  - Justin Hirner
