@@ -1,7 +1,7 @@
 # Decryption
 
 ## Photos
-![KUpic.JPG](KUpic.jpg)
+![KUpic.JPG](KUpic.jpg) ![Me.jpeg](Me.jpeg)
 
 ## Group Members
  - Aaron Wageman
@@ -60,7 +60,7 @@ Using the wordlist method:
 ![JTRsnip.PNG](JTRsnip.PNG)
 
 ### Note from Justin
-When making your own passwords to crack, make sure that you do not create the files inside Git Bash, as for some weird reason, it will not crack the password. Even if the password is most definitely in the wordlist, it will not crack it. Simply, to get by this just create each of the files inside windows explorer, and only copy the hash value from Git Bash and then paste it into a text or log file. 
+When making your own passwords to crack, make sure that you do not create the files inside Git Bash, as for some weird reason, it will not crack the password. Even if the password is most definitely in the wordlist, it will not crack it. Simply, to get by this just create each of the files inside windows explorer, and only copy the hash value from Git Bash and then paste it into a text or log file. Then you should be able to run the decryption with no hitches.
 
 
 ### Summary/Final Thoughts
