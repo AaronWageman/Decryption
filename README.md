@@ -36,6 +36,7 @@
  - John The Ripper command docs: https://www.openwall.com/john/doc/OPTIONS.shtml
  - John The Ripper modes docs: https://www.openwall.com/john/doc/MODES.shtml
  - Top 100 worst passwords for the wordlist: https://www.forbes.com/sites/daveywinder/2019/12/14/ranked-the-worlds-100-worst-passwords/?sh=75aa22d069b4
+ - John The Ripper Pen Testing: https://www.csoonline.com/article/3564153/john-the-ripper-explained-an-essential-password-cracker-for-your-hacker-toolkit.html
 
 ## Prerequisites
 - Windows, Linux, or MacOS
@@ -48,6 +49,9 @@ John the ripper has 3 modes:
   - incremental
 
 Single crack mode cracks password hashes by using login names, "GECOS", and the users home directory names. Wordlist mode allows the user to try and break the password with a list of popular passwords such as "password". John the ripper takes the words from the wordlist and makes them into hashes. Then these hashes are compared to the hashes supplied in the password file given by the user. Lastly, is the incremental which is a brute-force password cracker. There are some issues with the incremental mode. The incremental mode can take long amounts of time and can sometimes never end if the password is too strong (which is good for the password).
+
+## Penetration Testing
+John The Ripper is also an effective tool used in pen testing. Using the simple crack mode allows for all three modes to be used. This allows for passwords to be tested for security purposes. If an employees password is cracked then the system is vunerable. Pen testing is essential to help secure systems and find vulnerabilities.
 
 ### Code and Processes
 
