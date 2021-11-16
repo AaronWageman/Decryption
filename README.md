@@ -11,6 +11,7 @@
 ## Subtopics
  - Spotting weak passwords 
  - Simple Crack
+ - GUI alternatives
 
 
 ## Tools Used
@@ -18,6 +19,13 @@
  - Tutorial guide for John The Ripper: https://www.varonis.com/blog/john-the-ripper/
  - John The Ripper command docs: https://www.openwall.com/john/doc/OPTIONS.shtml
  - John The Ripper modes docs: https://www.openwall.com/john/doc/MODES.shtml
+ - Hashsuite
+ - Cain and Abel
+ - Virtual Box
+ - Tutorial for installing Cain and Abel: https://www.youtube.com/watch?v=Y2fhWtZedTQ
+ - Tutorial for hashsuite: https://hashsuite.openwall.net/tutorial
+ - Microsoft windows virtual box link: https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/
+
 
 # How to Install and run John the Ripper
  - To start, go to the John the Ripper website. You can either Google "John the Ripper password cracker" or you can choose to follow this link: https://www.openwall.com/john/
@@ -77,6 +85,12 @@ To start a simple crack just enter the following code into your Bash terminal:
 ```
 
 This is the simplest way of cracking a password from a given hash, however, it is the longest.
+
+# GUI alternatives(Precious Shittu)
+the two main programs i will be talking about in this section are Hashsuite and cain.
+## Intallations
+I had to go through virtual box because the laptop's anti virus won't let men install either programs. we will be talking about hashsuit first because it was the only one i actually got to work. the first step is to go to this site and get the free version: https://hashsuite.openwall.net/download. It is relatively simple from here on out, you just have to click next button in the installation manager and with that you should have hash suite intalled on your system.
+Cain wasn't as smooth to install. in the first place the website where it can be downloaded doesn't exist anymore so i had to go through the wayback machine to acess the website. heres the link: https://web.archive.org/web/20160214132154/http://www.oxid.it/cain.html. we will also need to install something called WinPcap you can get that from here: https://www.winpcap.org/install/default.htm. install WinPcap first, the installation for wincap is fairly straight forward.
 
 ### Summary/Final Thoughts
 We just covered how to use the John The Ripper password cracker. Specifically, the wordlist mode. This can be used in a variety of settings such as, forensics or IT. Wordlist could be utilized to crack passwords during investigations or to test the strength of employee's passwords to prevent leaks.
