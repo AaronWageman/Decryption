@@ -68,6 +68,7 @@ Using the wordlist method:
 2. Use git bash here in the "run" folder (See How to install above)
 3. Run the command: ./john newpassworddoc.txt -wordlist="mynewwordlist.txt" --format=Raw-SHA256
 4. Then run ./john --show --format=Raw-SHA256 newpassworddoc.txt
+Sidenote: to view all supported hash algorithms run ./john --list=formats
 
 ![JTRsnip.PNG](JTRsnip.PNG)
 
