@@ -93,7 +93,7 @@ So as an example, if we ***know*** that the password is a sha256 hash, we can en
 ```
 ./john --incremental --format=Raw-SHA256
 ```
-Here is a picture of it working, as the process could take a while.
+Here is a picture of it working, as the process could take a while. As you can see from the image, the password found was "duke3d".
 
 ![IncrementalWorking.PNG](IncrementalWorking.PNG)
 
