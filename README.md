@@ -89,8 +89,27 @@ This is the simplest way of cracking a password from a given hash, however, it i
 # GUI alternatives(Precious Shittu)
 the two main programs i will be talking about in this section are Hashsuite and cain.
 ## Intallations
-I had to go through virtual box because the laptop's anti virus won't let men install either programs. we will be talking about hashsuit first because it was the only one i actually got to work. the first step is to go to this site and get the free version: https://hashsuite.openwall.net/download. It is relatively simple from here on out, you just have to click next button in the installation manager and with that you should have hash suite intalled on your system.
-Cain wasn't as smooth to install. in the first place the website where it can be downloaded doesn't exist anymore so i had to go through the wayback machine to acess the website. heres the link: https://web.archive.org/web/20160214132154/http://www.oxid.it/cain.html. we will also need to install something called WinPcap you can get that from here: https://www.winpcap.org/install/default.htm. install WinPcap first, the installation for wincap is fairly straight forward.
+I had to go through virtual box because the laptop's anti virus won't let men install either programs. we will be talking about hashsuit first because it was the only one i actually got to work. the first step is to go to this site and get the free version: https://hashsuite.openwall.net/download. It is relatively simple from here on out, you just have to extract the zip and with that you should have hash suite intalled on your system.
+
+
+Cain wasn't as smooth to install. in the first place the website where it can be downloaded doesn't exist anymore so i had to go through the wayback machine to acess the website. heres the link: https://web.archive.org/web/20160214132154/http://www.oxid.it/cain.html.
+![digifores_4.PNG](digifores_4.PNG) 
+after that click on Download Cain & Abel v4.9.56 for Windows NT/2000/XP to download the installer.
+Next we will also need to install something called WinPcap you can get that from here: https://www.winpcap.org/install/default.htm. ![digifores_5.PNG](digifores_5.PNG) click Version 4.1.3 Installer for Windows to download the installer. install WinPcap first, the installation for wincap is fairly straight forward.
+
+![digifores_1.PNG](digifores_1.PNG)
+I got an error when trying to install the packet driver, this seems to prevent me from importing lists
+![digifores_2.PNG](digifores_2.PNG)
+![digifores_3.PNG](digifores_3.PNG)
+
+## running Simple Crack with hashsuite
+### Hashsuite
+for this demo i tried downloading word lists from the downloader tab in hashsuite but it didn't seem to work properly when i imported them so i just went with one of the sample hashes that came with the hashsuit folder. this can be found under the samples folder. once the hashes are imported from the file
+![digifores_6.PNG](digifores_6.PNG)
+click on start after you set the rules you want for the testing and it will start trying to crack the hashes.
+
+### Cain
+![digifores_7.PNG](digifores_7.PNG)
 
 ### Summary/Final Thoughts
 We just covered how to use the John The Ripper password cracker. Specifically, the wordlist mode. This can be used in a variety of settings such as, forensics or IT. Wordlist could be utilized to crack passwords during investigations or to test the strength of employee's passwords to prevent leaks.
