@@ -91,7 +91,7 @@ However, if you wish to take the "simple crack" a step further, if you ***know**
 Side note: I personally could not get --single to work at all and it would only leave me with "0 password hashes cracked, 1 left" and I couldn't ever get it to work even with assistance from the official JtR website.
 So as an example, if we ***know*** that the password is a sha256 hash, we can enter this:
 ```
-./john --incremental --format=Raw-SHA256
+./john --incremental --format=Raw-SHA256 "filename"
 ```
 Here is a picture of it working, as the process could take a while. As you can see from the image, the password found was "duke3d".
 
