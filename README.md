@@ -102,6 +102,9 @@ Here is an example of that with sha256.
 
 ![HashesExample.PNG](HashesExample.PNG)
 
+If you wish to test these out for yourself, use the text files provided in the GitHub files on this page. 
+They are named: hash2.txt hash3.txt
+
 # GUI alternatives(Precious Shittu)
 the two main programs i will be talking about in this section are Hashsuite and cain.
 ## Intallations
