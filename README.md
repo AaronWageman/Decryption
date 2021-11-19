@@ -94,10 +94,11 @@ So as an example, if we ***know*** that the password is a sha256 hash, we can en
 ./john --incremental --format=Raw-SHA256
 ```
 Here is a picture of it working, as the process could take a while.
+![IncrementalWorking.png](IncrementalWorking.png)
 
 If you wish to find out what kind of hash the password is, JtR has a method of "suggesting" what type it is. 
 Here is an example of that with sha256.
-
+![HashesExample.png](HashesExample.png)
 
 # GUI alternatives(Precious Shittu)
 the two main programs i will be talking about in this section are Hashsuite and cain.
