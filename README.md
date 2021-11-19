@@ -86,6 +86,19 @@ To start a simple crack just enter the following code into your Bash terminal:
 
 This is the simplest way of cracking a password from a given hash, however, it is the longest.
 
+However, if you wish to take the "simple crack" a step further, if you ***know*** the hash of the password, and put it into a text file, you can enter the following code to assist John in finding the password.
+
+Side note: I personally could not get --single to work at all and it would only leave me with "0 password hashes cracked, 1 left" and I couldn't ever get it to work even with assistance from the official JtR website.
+So as an example, if we ***know*** that the password is a sha256 hash, we can enter this:
+```
+./john --incremental --format=Raw-SHA256
+```
+Here is a picture of it working, as the process could take a while.
+
+If you wish to find out what kind of hash the password is, JtR has a method of "suggesting" what type it is. 
+Here is an example of that with sha256.
+
+
 # GUI alternatives(Precious Shittu)
 the two main programs i will be talking about in this section are Hashsuite and cain.
 ## Intallations
